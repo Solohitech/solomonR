@@ -1,0 +1,40 @@
+body{
+	background: antiquewhite;
+	color: black;
+    font-size: 25px;
+
+
+
+}
+
+form{
+	margin-top: 10rem;
+	
+	width: 20%;
+
+}
+
+input{
+	width: 130%;
+	height: 30px;
+	border-radius: 10px;
+	margin-right: 20px;
+
+}
+
+input:hover{
+	background: gray;
+	color: black;
+	cursor: pointer;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+
+

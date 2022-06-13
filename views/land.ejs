@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>user-landing page</title>
+    </head>
+
+    <style>
+
+
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        body{
+            background: goldenrod;
+        }
+
+    .mother-wrapp{
+       width: 100%;
+       height: 80px;
+       /* background-color: bisque; */
+       display: flex;
+       justify-content: space-between;
+    }
+
+    
+
+        .start{
+            /* opacity: 0; */
+            text-align: center;
+            width: 50%;
+            height: 80px; ;
+            font-style: italic;
+            margin-bottom: 3rem;
+            font-style: italic;
+            color: darkcyan;
+            border-bottom-left-radius:200px ;
+            border-top-right-radius:200px ;
+            border-bottom-right-radius:0px ;
+
+        }
+
+    .start h3{
+             color: brown;
+    }
+        #navbar{
+           
+            
+            border-bottom-right-radius:0px ;
+            border-bottom-left-radius:0px ;
+           
+            
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+
+        }
+
+        li{
+              margin: 18px;
+              margin-top: 25px;
+              font-size: 20px;
+              cursor: pointer;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+
+     
+        a:hover{
+            color: rgb(104, 21, 21);
+            
+            border-radius: 3px;
+            width: 30px;
+        
+        
+            /* padding: 3px; */
+
+            
+        }
+
+        
+
+       
+        .header{
+            text-align: center;
+           color: whitesmoke;
+        }
+    .pics{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap-reverse;
+        
+         
+    }
+    img{
+        margin: 2rem 2rem;
+        border-radius: 5%;
+        width: 10rem;
+        
+    }
+
+    .first:hover{
+        margin: 2rem 2rem;
+        border-radius: 5%;
+        width: 20rem;
+        
+    }
+
+    .secnd:hover{
+        margin: 2rem 2rem;
+        border-radius: 5%;
+        width: 20rem;
+        
+    }
+
+    
+    .third:hover{
+        margin: 2rem 2rem;
+        border-radius: 5%;
+        width: 20rem;
+        
+    }
+
+    .fourth:hover{
+        margin: 2rem 2rem;
+        border-radius: 5%;
+        width: 20rem;
+        
+    }
+    
+
+
+    form{
+        text-align: center;
+    }
+
+    button{
+			width: 7rem;
+			height: 2rem;
+			margin: 10px;
+			font-weight: bolder;
+			cursor: pointer;
+            background-color: blue;
+            border-bottom-left-radius: 70%;
+		}
+
+        button:hover{
+
+transition: 0.3s ease-in-out;
+background-color: rebeccapurple;
+border-radius: 6px;
+color: white;
+font-size: 18px;
+
+}
+
+
+.sio{
+    width: 90%;
+    height:10%;
+    background-image: url(./image/health.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.8;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border-bottom-right-radius:100% ;
+   margin: 3rem 1rem;
+   /* position: fixed; */
+   border-top-left-radius:100% ;
+   border-top-right-radius:2%; 
+   border-bottom-left-radius:100% 
+   
+}
+
+.sio>img{
+    width: 30%;
+    height: 30%;
+    margin:2rem;
+    border-bottom-right-radius:50% 
+    
+   
+}
+
+footer{
+    width: 100%;
+    height: px;
+    background-color: brown;
+    display: flex;
+   
+    justify-content: space-around;
+}
+
+footer>div{
+    width: 170px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+
+}
+
+footer>div>p{
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+}
+.after-footer{
+    width: 100%;
+    background-color: gray;
+}
+
+@media screen and (max-width:450px){
+
+
+   
+
+        .mother-wrapp{
+            width: 100%;
+            height: 80px;
+           text-align: center;
+            background: rgb(85, 75, 56);
+            border-bottom-right-radius:5px ;
+            border-bottom-left-radius:5px ;
+
+        }
+
+        #menu{
+            color: whitesmoke;
+            font-size: 26px;
+            margin-right: 5px;
+            margin-top: 19px;
+            margin-left: 8px;
+            cursor: pointer;
+        }
+
+       
+        .start{
+
+            text-align: center;
+            width: 100%;
+            height: 80px; 
+            
+            margin-bottom: 3rem;
+            font-style: italic;
+            color: whitesmoke;
+            border-bottom-left-radius:0px ;
+            border-top-right-radius:0px ;
+            border-bottom-right-radius:0px ;
+
+        }
+        .start h1{
+            color: red;
+            font-size: 20px;
+            margin-top: 27px;
+           
+        }
+
+        #navbar{
+        display: none;
+        background:white;
+        height: 100vh;
+        z-index: 1;
+        }
+
+        ul{
+            display: block;
+            list-style-type: none;
+
+        }
+
+        li{
+              margin: 15px;
+              margin-top: 25px;
+              font-size: 17px;
+              cursor: pointer;
+        }
+
+        a{
+            color: rgb(23, 22, 22);
+            text-decoration: none;
+            
+        }
+
+        a:hover{
+            color:darkgoldenrod ;
+            
+           
+
+            
+        }
+
+}
+
+
+       
+    
+        </style>
+
+<body>
+ <!-- web heder -->
+ 
+ <div class="mother-wrapp">
+      
+	
+    
+
+    <div id="navbar">
+
+       
+
+        <nav>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/">services</a></li>
+                <li><a href="/">contact</a></li>
+                <li><a href="/">about</a></li>
+            </ul>
+        </nav>
+      
+    </div>
+
+    <div class="start">
+        <h1>MERITE HOSPITAL</h1>
+        <h3>your health is our concern!!</h3>
+        </div>
+   
+
+<div id="menu"  onclick="togle()">&#9776;</div>
+    
+
+
+
+</div>
+    
+   
+   
+
+    
+<!-- web Banner -->
+  
+    <div class="sio">
+        <img src="./image/doctormax.jpg" alt="">
+        <img src="./image/priscription.jpg" alt="">
+     
+    </div>
+
+    <div class="line">
+        
+        
+    </div>
+
+
+    <!-- image content section -->
+    <div class="pics">
+  <img  class='first'src="./image/isolationroom.jpg" alt=""> 
+    <img class='secnd'src="./image/london.jfif" alt="">
+    <img  class='third' src="./image/doctormax.jpg" alt="">
+    <img  class='fourth'src="./image/insidehospital.jpg" alt="">
+
+    </div>
+
+  
+
+    <!-- logout BTN -->
+
+    <form action="/logout" method="post">
+        <button>logout</button>
+     </form>
+
+     <!-- footer section -->
+
+    <footer>
+        <div>
+        <h3>about</h3>
+        <p>The site could be temporarily unavailable or 
+            too busy. Try again in a few moments.
+            If you are unable to load any pages, check 
+            your computer’s
+         network connection</p>
+        </div>
+       
+        <div>
+        <h3>services</h3>
+        <p>The site could be
+            temporarily unavailable or 
+           too busy. Try again in a few moments.</p>
+        </div>
+       
+           <div>
+        <h3>contact page</h3>
+        <p>The site could be 
+            temporarily unavailable or 
+            too busy. Try again in a few moments.</p>
+        </div>
+       
+    </footer>
+    <!-- after foot -->
+    <div class="after-footer">
+    <marquee behavior="" direction="">
+    <p style=" font-weight: bolder; color: brown; width: 100%; text-align: center;font-style: italic;">&copy;write Solohitechnology=> 2022</p>
+</marquee>
+
+<script>
+    function togle(){
+        let x=document.getElementById('navbar');
+        if(x.style.display==="block"){
+            x.style.display='none';
+        }else{
+            x.style.display='block';
+           
+        }
+    }
+</script>
+</div>
+</body>
+</html>

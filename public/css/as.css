@@ -1,0 +1,25 @@
+body{
+	background: black;
+}
+
+form{
+  background: whitesmoke;
+	width: 40%;
+	height: 100%;
+border-radius: 10%;
+
+
+}
+button{
+	width: 90px;
+}
+
+input{
+	
+	padding: 1%;
+	border-radius: 30px 5px /10px;
+	width: 50%;
+	height: 25px;
+	border-color: red;
+
+}
